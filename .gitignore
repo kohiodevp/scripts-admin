@@ -1,0 +1,31 @@
+# Secrets & environnement
+.env
+*.vault
+vault.yml
+*.key
+*.pem
+*.ovpn
+*.conf.secret
+
+# Logs & sauvegardes
+*.log
+*.bak
+*.old
+*.tmp
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sorties d'audit
+lynis-report.dat
+*.report
+
+# OS / Éditeurs
+.DS_Store
+.idea/
+.vscode/
